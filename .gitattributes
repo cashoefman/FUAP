@@ -1,0 +1,6 @@
+* text=auto
+*.md text
+*.swift text
+*.kt text
+*.json text
+*.bat text eol=crlf

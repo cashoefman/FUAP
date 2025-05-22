@@ -1,0 +1,54 @@
+# macOS files
+.DS_Store
+
+# VSCode files
+.vscode/
+*.code-workspace
+
+# Xcode files
+build/
+DerivedData/
+*.xcuserstate
+.swiftpm/
+xcuserdata/
+*.xccheckout
+*.xcscmblueprint
+GoogleService-Info.plist
+google-services.json
+
+# Android files
+.gradle/
+local.properties
+.idea/
+*.iml
+captures/
+*.apk
+*.aar
+*.keystore
+*.jks
+build/
+
+# General
+*.log
+.env
+.env.*
+*.tmp
+*.swp
+
+# Firebase
+firebase-debug.log
+firebase-debug-*.log
+
+# Node modules
+node_modules/
+
+# CocoaPods
+Pods/
+Podfile.lock
+
+# Fastlane
+fastlane/report.xml
+fastlane/test_output/
+fastlane/screenshots
+fastlane/*.cer
+fastlane/*.mobileprovision

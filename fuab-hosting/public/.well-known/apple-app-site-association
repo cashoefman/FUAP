@@ -1,0 +1,14 @@
+{
+  "applinks": {
+    "apps": [],
+    "details": [
+      {
+        "appID": "7VSVAXS4SU.io.disruptive.dev.fuap",
+        "paths": [
+          "/__/auth/action*",
+          "/login"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "hosting": {
+    "public": "public", // Or your designated public folder
+    "ignore": ["firebase.json", "**/.*", "**/node_modules/**"],
+    "headers": [
+      {
+        // Ensures the AASA file is served with the correct content type
+        "source": "/.well-known/apple-app-site-association",
+        "headers": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ]
+      }
+    ]
+    // Optional: If you also want to serve it from the root (though .well-known is preferred by Apple)
+    // You could add a rewrite, but placing it directly in .well-known is simpler.
+    // "rewrites": [
+    //   {
+    //     "source": "/apple-app-site-association",
+    //     "destination": "/.well-known/apple-app-site-association"
+    //   }
+    // ]
+  }
+}
